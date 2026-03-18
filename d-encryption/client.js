@@ -62,6 +62,7 @@ function decryptMessage(encryptedMessage) {
 // ── Connect ───────────────────────────────────────────────────────────────────
 socket.on("connect", () => {
   console.log("Connected to the server");
+  console.log("[ Versi: D - Encryption ]");
 
   rl.question("Enter your username: ", (input) => {
     username = input;
